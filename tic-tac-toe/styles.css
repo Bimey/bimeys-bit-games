@@ -1,0 +1,35 @@
+#container {
+    text-align: center;
+  }
+  
+  #tic-tac-toe {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+      outline: 3px solid white;
+      outline-offset: -2px;
+  }
+  
+  .squares {
+    height: 198px;
+    width: 198px;
+    display: grid;
+    border: 1px solid black;
+  }
+  
+  #display {
+      font-family: Times New Roman;
+  }
+  
+  #display2 {
+      font-family: Times New Roman;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  

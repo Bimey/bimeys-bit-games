@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: red;
+}
+
+.button {
+    color:red;
+    background-color: rgb(110, 95, 95);
+}
