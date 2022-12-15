@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: #CD7F32;
+  }
+  
+  #start {
+    border-radius: 50%;
+  }
+  
+  #container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .card1a {
+    height: 120px;
+    width: 75px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card1b {
+    height: 110px;
+    width: 65px;
+    background-color: red;
+    border-radius: 10%;
+  }
+  
+  #playAgain {
+    visibility: hidden;
+  }
+  
