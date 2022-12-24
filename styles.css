@@ -1,32 +1,53 @@
 #game {
-    display: flex;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+#title {
+    text-align: center;
+    width: 100%;
+    font-size: 200%
+}
+
+a {
+  border-radius: 10%;
+  background-color: white;
+  border: 2px solid green;
+  color: green;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+}
+
+a:active {
+  background-color: green; 
+  border: 2px solid red;
+  color: red;
+}
+
+#container {
     height: 100%;
     width: 100%;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+/*     justify-content: space-evenly; */
+    grid-gap: .75%;
   }
-  
-  #title {
-  /*     top: 40px; */
-      text-align: center;
-      width: 100%;
-      font-size: 200% 
-      /* ^^could be future problem */
-  }
-  
-  #container {
-      height: 100%;
-      width: 100%;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr; 
-      grid-template-rows: 1fr 1fr 1fr; 
-      justify-content: space-evenly;
-      grid-gap: .75%;
-    }
-  
-  .squares {
-      background-color: brown;
-      width: 1fr;
-      height: 200px;
-      border-radius: 10%;
-  }  
-  
+
+.squares {
+    background-color: brown;
+    width: 90%;
+    height: 90%;
+    border-radius: 45%;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
