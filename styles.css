@@ -1,3 +1,4 @@
+
 #game {
   display: flex;
   height: 100vh;
@@ -13,24 +14,23 @@
 
 a {
   border-radius: 10%;
-  background-color: white;
-  border: 2px solid green;
-  color: green;
+  background-color: #cce6ff;
+  border: 2px solid #f27d2f;
+  color: #f27d2f;
   text-decoration: none;
 }
 
 a:hover{
-  background-color: white;
-  border: 2px solid red;
-  color: red;
+  background-color: #e6f2ff;
+  border: 2px solid #f27d2f;
+  color: #80bfff;
 }
 
 a:active {
-  background-color: green; 
-  border: 2px solid red;
-  color: red;
+  background-color: #99ccff;
+  border: 2px solid #f27d2f;
+  color: #f27d2f;
 }
-
 #container {
     height: 100%;
     width: 100%;

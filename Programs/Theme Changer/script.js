@@ -1,3 +1,4 @@
+// Complete
 const commandBar = document.getElementById("commandBar")
 function handleInput(msg) {
   console.log(msg)

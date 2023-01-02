@@ -1,3 +1,4 @@
+// Complete
 const jokeA = "A man walks into a bar. He says ow."
 const jokeB = "I failed math so many times at school, I can’t even count."
 const jokeC = "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me."

@@ -1,3 +1,4 @@
+// Complete
 const redlight = document.getElementById("redlight")
 const yellowlight = document.getElementById("yellowlight")
 const greenlight = document.getElementById("greenlight")

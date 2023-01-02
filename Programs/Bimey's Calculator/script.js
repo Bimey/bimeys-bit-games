@@ -1,3 +1,4 @@
+// Complete
 function alertDescription() {
     alert(
       "Welcome to Bimey's Calculator! To use the calculator, just change the didgets in the two boxes and hit the Get Answer button. The calculater currently works for Addtion, Subtraction, Multipication, and Division. This calculator doesn't fully work yet so keep it to simple. It should be fine most of the time though. If you get an answer like 1e+64 the 1 is the first didget of the problem and the 64 is the number of zeros after. I still can't figure out what the e means. If anyone can help me with that, that would be nice. Also note that this calculator doesn't work for decimals. Have fun!!😉"

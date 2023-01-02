@@ -1,29 +1,29 @@
+/* Complete */
 #jokemanbody {
-    position: absolute;
-    background-color: green;
-    height: 322px;
-    width: 300px;
-    left: 300px;
-    top: 200px;
-  }
-  
-  #jokeman-eye1 {
-    position: absolute;
-    background-color: black;
-    height: 20px;
-    width: 20px;
-    left: 350px;
-    top: 250px;
-    z-index: 100;
-  }
-  
-  #jokeman-eye2 {
-    position: absolute;
-    background-color: black;
-    height: 20px;
-    width: 20px;
-    left: 180px;
-    top: 1px;
-    z-index: 100;
-  }
-  
+  position: absolute;
+  background-color: green;
+  height: 322px;
+  width: 300px;
+  left: 300px;
+  top: 200px;
+}
+
+#jokeman-eye1 {
+  position: absolute;
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  left: 350px;
+  top: 250px;
+  z-index: 100;
+}
+
+#jokeman-eye2 {
+  position: absolute;
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  left: 180px;
+  top: 1px;
+  z-index: 100;
+}

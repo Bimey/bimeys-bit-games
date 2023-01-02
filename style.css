@@ -1,0 +1,36 @@
+/* THIS IS THE 404 CSS!! */
+#thing{
+    position: relative;
+    text-align: center;
+    animation-name: animate;
+    animation: animate 10s infinite;
+  }
+  @keyframes animate {
+    0% {font-size: 100%; top: -30px}
+    10% {font-size: 140%; top: 50px}
+    20% {font-size: 180%; top: 100px}
+    30% {font-size: 220%; top: 150px}
+    40% {font-size: 260%; top: 200px}
+    50% {font-size: 300%; top: 250px}
+    60% {font-size: 260%; top: 300px}
+    70% {font-size: 220%; top: 350px}
+    80% {font-size: 180%; top: 400px}
+    90% {font-size: 140%; top: 450px}
+    100% {font-size: 100%; top: 515px}
+  }
+  
+  a {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  a:active {
+    border: 1px solid black;
+  }
+  
+  #text,
+  #link {
+    position: absolute;
+    top: 10px;
+  }
+  

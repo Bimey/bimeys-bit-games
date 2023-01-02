@@ -1,3 +1,4 @@
+// Sadly this will not be used in the beta update 0.1
 const readline = require('readline')
 
 const rl = readline.createInterface({
